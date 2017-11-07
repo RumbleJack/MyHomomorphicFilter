@@ -1,0 +1,5 @@
+﻿  HF.cpp
+HF.cpp(48): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+HF.cpp(149): warning C4129: “e”: 不可识别的字符转义序列
+HF.cpp(168): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  test、.vcxproj -> C:\Users\JackRen\Documents\Visual Studio 2013\Projects\DIP\MyHomomorphicFilter\x64\Debug\test.exe

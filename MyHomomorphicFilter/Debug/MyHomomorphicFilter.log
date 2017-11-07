@@ -1,0 +1,17 @@
+﻿生成启动时间为 2017/11/6 21:47:41。
+     1>项目“C:\Users\JackRen\Documents\Visual Studio 2013\Projects\DIP\MyHomomorphicFilter\MyHomomorphicFilter\MyHomomorphicFilter.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /D "_CRT_SECURE_NO_DEPRECATE" main.cpp
+         main.cpp
+     1>c:\programfiles\opencv3_1_0\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\programfiles\opencv3_1_0\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\programfiles\opencv3_1_0\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JackRen\Documents\Visual Studio 2013\Projects\DIP\MyHomomorphicFilter\Debug\MyHomomorphicFilter.exe" /INCREMENTAL /NOLOGO opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JackRen\Documents\Visual Studio 2013\Projects\DIP\MyHomomorphicFilter\Debug\MyHomomorphicFilter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JackRen\Documents\Visual Studio 2013\Projects\DIP\MyHomomorphicFilter\Debug\MyHomomorphicFilter.lib" /MACHINE:X86 Debug\homo_filter.obj
+         Debug\main.obj
+     1>opencv_world310d.lib(opencv_world310d.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“C:\Users\JackRen\Documents\Visual Studio 2013\Projects\DIP\MyHomomorphicFilter\MyHomomorphicFilter\MyHomomorphicFilter.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.89

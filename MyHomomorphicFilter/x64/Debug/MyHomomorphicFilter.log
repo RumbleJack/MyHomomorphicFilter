@@ -1,0 +1,4 @@
+﻿  myHomoFilter.cpp
+myHomoFilter.cpp(46): warning C4305: “参数”: 从“double”到“float”截断
+myHomoFilter.cpp(123): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  MyHomomorphicFilter.vcxproj -> C:\Users\JackRen\Documents\Visual Studio 2013\Projects\DIP\MyHomomorphicFilter\x64\Debug\MyHomomorphicFilter.exe

@@ -1,0 +1,5 @@
+﻿  main.cpp
+main.cpp(11): warning C4273: “GetConsoleWindow”: dll 链接不一致
+          C:\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h(872) : 参见“GetConsoleWindow”的前一个定义
+main.cpp(79): error C2440: “=”: 无法从“HANDLE”转换为“HBITMAP”
+          从“void*”到指向非“void”的指针的转换要求显式类型转换
