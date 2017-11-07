@@ -4,7 +4,4 @@
 using namespace cv;
 using namespace std;
 
-#define MAXTIME 300
-
-
 bool myHomoFilter(Mat inImage, Mat& outImage);
