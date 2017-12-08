@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyHomomorphicFilter", "MyHo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test、\test、.vcxproj", "{2C80A4FC-01F3-4289-9A75-3173104B9B13}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testOpenCV", "testOpenCV\testOpenCV.vcxproj", "{7E39EB7A-D9B5-4859-9775-6850AD87A161}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -42,17 +40,6 @@ Global
 		{2C80A4FC-01F3-4289-9A75-3173104B9B13}.Release|Win32.ActiveCfg = Release|Win32
 		{2C80A4FC-01F3-4289-9A75-3173104B9B13}.Release|Win32.Build.0 = Release|Win32
 		{2C80A4FC-01F3-4289-9A75-3173104B9B13}.Release|x64.ActiveCfg = Release|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Debug|Mixed Platforms.Build.0 = Debug|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Debug|Win32.ActiveCfg = Debug|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Debug|Win32.Build.0 = Debug|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Debug|x64.ActiveCfg = Debug|x64
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Debug|x64.Build.0 = Debug|x64
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Release|Mixed Platforms.ActiveCfg = Release|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Release|Mixed Platforms.Build.0 = Release|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Release|Win32.ActiveCfg = Release|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Release|Win32.Build.0 = Release|Win32
-		{7E39EB7A-D9B5-4859-9775-6850AD87A161}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

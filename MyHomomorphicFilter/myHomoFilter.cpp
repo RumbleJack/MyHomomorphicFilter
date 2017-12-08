@@ -23,6 +23,7 @@ bool myHomoFilter(Mat inImage, Mat& outImage)
 		myHomoFilterForSingleChannel(inImage, outImage);
 	}
 	return true;
+
 }
 
 //对单通道图像同态滤波
