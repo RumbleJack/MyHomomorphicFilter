@@ -30,8 +30,11 @@
 *.exe
 *.out
 *.app
-x64/*
+**/x64
+**/debug
+**/release
 
 
 # Visual studio file
 *.sdf
+*.opensdf
