@@ -2,9 +2,11 @@
 #include<iostream>
 using namespace std;
 
-//对单通道图像同态滤波
-bool myHomoFilterForSingleChannel(Mat inImage, Mat& outImage);
-Mat getButterWorth(int width, int height, float a = 80, float n = 4, float d = 1.5, float e = 0.5);
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/highgui/highgui.hpp"
+using namespace cv;
+
+
 //对彩色或灰度图像进行同态滤波
 bool myHomoFilter(Mat inImage, Mat& outImage)
 {
