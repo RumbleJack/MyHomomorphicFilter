@@ -1,3 +1,5 @@
+​	部分markdown不能正常显示，见[本人博客](http://blog.csdn.net/renjiewen1995/article/details/79321920#%E4%B8%AD%E6%96%87%E7%BF%BB%E8%AF%91) 。
+
 # MyHomomorphicFilter
 
 [TOC]
@@ -13,6 +15,8 @@ $$
 H(u,v)'=d\cdot H(u,v)+e \tag{11}
 $$
 其中n越大，斜率越大；a越大，转换点越大。d通常取1.5，e取0.5。根据实际图像可调整参数。
+
+​	**特别要注意输出图像的直流分量不应该改变，即对应巴特沃斯滤波器在二维频域中的零点位置应为1；**
 
 # 中文翻译：
 
@@ -101,10 +105,6 @@ $$
 ​	本章不关注VB实现的用户界面，仅关注C语言实现的频域滤波器的一些细节，如图4（通过windows动态链接库实现）
 
 ​	改进的巴特沃斯滤波器按下式在C语言中实现：
-$$
-
-$$
-
 $$
 (1-(1/(1+pow(square\_q/(double)coeff\_a),(double)coeff\_n))))*var\_d + var\_e
 $$
