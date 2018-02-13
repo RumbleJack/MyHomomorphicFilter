@@ -6,7 +6,6 @@ using namespace std;
 #include "opencv2/highgui/highgui.hpp"
 using namespace cv;
 
-
 //对彩色或灰度图像进行同态滤波
 bool myHomoFilter(Mat inImage, Mat& outImage)
 {
@@ -63,6 +62,7 @@ bool myHomoFilterForSingleChannel(Mat inImage, Mat& outImage)
 	return true;
 }
 
+// 按照图像的二维频谱生成对应尺寸的巴特沃斯滤波器
 Mat getButterWorth(int rows, int cols, float a, float n, float d, float e)
 {
 	//Mat filter = Mat::zeros(LuminaceChannel.rows, LuminaceChannel.cols, CV_32FC1);
